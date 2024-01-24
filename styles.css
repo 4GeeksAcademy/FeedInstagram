@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.post{
+    margin: auto;
+    flex-direction: column;
+    height: 550px;
+    width: 400px;
+    background-color:white;
+}
+.post-header{
+    display:flex;
+    justify-content:space-between;
+    margin:2%; 
+}
+span{
+    margin-top: 3%;
+}
+img{
+    height: 250px;
+    width: 400px;
+}
+.post-body{
+    margin:2%;
+}
+.right-icon{
+    float:right;
+    margin-top: 3%;
+}
