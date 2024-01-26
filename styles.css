@@ -11,27 +11,35 @@ body{
 }
 .post-header{
     display:flex;
-    justify-content:space-between;
+    align-items: center;
     margin:2%; 
+    justify-content: space-between;
 }
-.profile{
+.titulo{
     display: flex;
 }
-.fa-brands fa-html5{
-    height: 400 px;
-    width:400 px;
+.user{
+    margin:3%;
+    margin-left:6px;
 }
-span{
-    margin-top: 3%;
+.fontsize{
+    font-size: 40px;
+    margin-top:3%;
+}
+.material-symbols-outlined{
+    justify-items:right;
 }
 img{
     height: 250px;
     width: 400px;
 }
 .post-body{
-    margin:1%;
+    margin:2%;
+    margin-top:0;
+}
+.post-icons{
+    align-items: center;
 }
 .right-icon{
     float:right;
-    margin-top: 3%;
 }
